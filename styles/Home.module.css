@@ -1,0 +1,95 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 100%;
+  min-width: 870px;
+  display: flex;
+}
+
+.winWheelWrapper {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+.buttonsWrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttonsWrapper button {
+  width: 45%;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.ball {
+  position:absolute;
+  left: 250px;
+  top: 133px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background:#fcc;
+  border: 2px solid gray;
+}
+
+.buttonsWrapper button:disabled {
+  opacity: 0.5;
+  cursor: auto;
+}
+
+.buttonRed {
+  background-color: #D30607;
+}
+
+.buttonBlack {
+  background-color: #07030D;
+}
+
+.resultsWrapper {
+  text-align: center;
+  padding: 0 10px;
+}
+
+.resultItem {
+  margin: 5px 0;
+  padding: 5px;
+  border: 1px black solid;
+  border-radius: 3px;
+}
+
+.bottomPart {
+  max-width: 370px;
+  width: 100%;
+}
+
+.bottomPart h2 {
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+.main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
